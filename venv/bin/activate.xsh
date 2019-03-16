@@ -25,7 +25,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/hertacalvo/Documents/mlh-hackathon-flask-starter/venv"
+$VIRTUAL_ENV = r"/Users/hertacalvo/Documents/openBook-website/venv"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
