@@ -18,6 +18,10 @@
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script><script src="lib/codemirror.js"></script><link rel="stylesheet" href="lib/codemirror.css"><script src="mode/javascript/javascript.js"></script><title>test2.book</title>
+<script src='https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=sunburst'>
+</script>
+
 </head>
 
 <body id="page-top">
@@ -176,186 +180,91 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h1 mb-0 text-gray-800">My Library</h1>
-          </div>
 
-          <!-- My Books -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h2 class="h4 mb-0 text-gray-800">My Books:</h2>
-          </div>
+          <div class="align-items-center justify-content-between mb-4">
+            <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
+              <a class="navbar-brand h5 mb-0 text-gray-100" href="#">openbook viewer</a>
 
-          <!-- Content Row -->
-          <div class="row">
-
-
-            <!-- Principles of software -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">Java</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">Principles of Software</div>
-                      <div class="h7 mb-0 text-gray-800">Dr. Konstantin Kuzmin</div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-gray-100" href="#" id="chapterDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Chapters
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="chapterDropdown">
+                      <a class="dropdown-item" href="#">View Full openbook</a>
+                      <a class="dropdown-item" href="#">View Index</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Chapter 1: Introduction</a>
+                      <a class="dropdown-item" href="#">Chapter 2: Python as a calculator</a>
+                      <a class="dropdown-item" href="#">Chapter 3: Python strings</a>
+                      <a class="dropdown-item" href="#">Chapter 4: Using functions and modules</a>
+                      <a class="dropdown-item" href="#">Chapter 5: Python functions</a>
+                      <a class="dropdown-item" href="#">Chapter 6: Decisions (Part 1)</a>
+                      <a class="dropdown-item" href="#">Chapter 7: Tuples, Modules, Images</a>
+                      <a class="dropdown-item" href="#">Chapter 8: Lists (Part 1)</a>
+                      <a class="dropdown-item" href="#">Chapter 9: While Loops</a>
+                      <a class="dropdown-item" href="#">Chapter 10: Lists (Part 2)</a>
+                      <a class="dropdown-item" href="#">Chapter 11: Decisions (Part 2)</a>
+                      <a class="dropdown-item" href="#">Chapter 12: Controlling loops</a>
                     </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-gray-100" href="#" id="chapterDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Exercises
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="chapterDropdown">
+                      <a class="dropdown-item" href="#">View Full openbook</a>
+                      <a class="dropdown-item" href="#">View Index</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Chapter 1: Introduction</a>
+                      <a class="dropdown-item" href="#">Chapter 2: Python as a calculator</a>
+                      <a class="dropdown-item" href="#">Chapter 3: Python strings</a>
+                      <a class="dropdown-item" href="#">Chapter 4: Using functions and modules</a>
+                      <a class="dropdown-item" href="#">Chapter 5: Python functions</a>
+                      <a class="dropdown-item" href="#">Chapter 6: Decisions (Part 1)</a>
+                      <a class="dropdown-item" href="#">Chapter 7: Tuples, Modules, Images</a>
+                      <a class="dropdown-item" href="#">Chapter 8: Lists (Part 1)</a>
+                      <a class="dropdown-item" href="#">Chapter 9: While Loops</a>
+                      <a class="dropdown-item" href="#">Chapter 10: Lists (Part 2)</a>
+                      <a class="dropdown-item" href="#">Chapter 11: Decisions (Part 2)</a>
+                      <a class="dropdown-item" href="#">Chapter 12: Controlling loops</a>
                     </div>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </div>
-            </div>
 
-
-            <!-- Database Systems -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">postgreSQL</div>
-                      <div class="badge badge-success">Python</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">Database Systems</div>
-                      <div class="h7 mb-0 text-gray-800">Dr. Sibel Adal&#x131;</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Python for C++ Prog -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">Python</div>
-                      <div class="badge badge-success">C++</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"><a href = 'grading.html'>Python for C++ programmers</a></div>
-                      <div class="h7 mb-0 text-gray-800">Shail Patel, Thomas Shweh</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Intro to Data Structures -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">C++</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"> <a href="dsbook.html">Data Structures in C++</a></div>
-                      <div class="h7 mb-0 text-gray-800">Dr. Barb Cutler</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- UX -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">User Experience Design Principles</div>
-                      <div class="h7 mb-0 text-gray-800">Herta Calvo-Faugier</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Computer Science 1 -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">Python</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"> <a href="cs1book.html">Computer Science 1</a></div>
-                      <div class="h7 mb-0 text-gray-800">Dr. Charles V. Stewart</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- R -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">R</div>
-                      <div class="badge badge-success">R markdown</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">Introduction to R and R markdown</div>
-                      <div class="h7 mb-0 text-gray-800">Thomas Shweh</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Graphs -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">Existential Graphs</div>
-                      <div class="h7 mb-0 text-gray-800">Shail Patel</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- GoLang -->
-            <div class="col-xl-6 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="badge badge-success">Python</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800"><a href='algobook.html'>Algorithms Crash Course</a></div>
-                      <div class="h7 mb-0 text-gray-800">Karen Mu</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-book fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </nav>
 
           </div>
 
+
+          <!-- Progress Small -->
+          <div class="card mb-4">
+            <div class="card-header py-3">
+              <h6 class="h5 m-0 medium font-weight-bold text-primary">Python for C++ Programmers</h6>
+              <h6 class="m-0 text-gray-600">by Shail Patel</h6>
+            </div>
+            <div class="card-body">
+<div id='content'><h1 id = "title1"> Lecture 1, Getting to Know Python</h1>
+<h2> Warm-Up
+</h2>
+<p> Since you are a wiz at C++, let's start with an easy exercise. By the end of this lecture you will be able to do this in python!
+First, print a square frame of stars given by the variable <b> value </b>
+</p>
+ 
+</p>
+<button style='background-color: #9c85a4;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;' onclick="download('square.cpp', getText(0))" '>Download</button><div class="edit" style='border:solid 1px black;' id='code_edit' 1></div><br><br><iframe style='width:750px; height:1000px;' src="http://192.168.56.111/index.php?semester=s19&course=sample&component=student&gradeable_id=grades_released_homework_autohiddenEC"></iframe><br><br><br></div>
+</div>
+          </div>
 
 
         </div>
@@ -414,13 +323,7 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
-
+<script>var edits = [];var list = document.getElementsByClassName('edit');for(var i = 0;i < list.length; i++){edits.push(CodeMirror(document.getElementById(list[i].id)));} function getText(index){return edits[index].getValue();} function jump_section(){var section = document.getElementById('chapter_select');var index = section.selectedIndex+1; window.location = '#title' + index;}function download(filename, text) {var element = document.createElement('a');element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));element.setAttribute('download', filename);element.style.display = 'none';document.body.appendChild(element);element.click();document.body.removeChild(element);}</script>
 </html>
