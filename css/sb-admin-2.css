@@ -11590,19 +11590,19 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://raw.githubusercontent.com/openbook-project/openBook-website/master/logos/openbook-logo.jpg");
+  background: url("https://raw.githubusercontent.com/openbook-project/openBook-website/master/logos/openbook-logo-rectangle.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+  background: url("https://raw.githubusercontent.com/openbook-project/openBook-website/master/logos/openbook-logo-rectangle.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
+  background: url("https://raw.githubusercontent.com/openbook-project/openBook-website/master/logos/openbook-logo-rectangle.jpg");
   background-position: center;
   background-size: cover;
 }
